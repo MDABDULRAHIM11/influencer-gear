@@ -8,7 +8,47 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
+}
+
+header {
+    width: 1150px;
+    height: 100vh;
+    margin: 70px auto;
+}
+
+/* nav section start from here */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-icon a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+.nav-icon li {
+    list-style: none;
+}
+
+.nav-icon ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-icon-images {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo-name {
+    color: #3A3A3A;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
